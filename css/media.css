@@ -1,0 +1,264 @@
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.c_padding{
+		padding: 50px 0 70px;
+	}
+	body{
+		padding-top: 89px;
+	}
+
+	header{
+		padding: 10px 0;
+
+	}
+	.menu ul li a{
+		padding: 8px 0 0 !important;
+		font-size: 20px;
+		text-align: right;
+	
+	}
+/*banner*/
+	.banner {
+	    padding-bottom: 60px;
+	}
+	.c_indi {
+	    bottom: -60px;
+	}
+	.c_indi [data-bs-target] {
+	    width: 13px;
+	    height: 13px;
+	}
+	.c_text{
+		margin-top: 0;
+	}
+	.c_text h1{
+		font-size: 25px;
+	}
+	.c_text h2{
+		font-size: 18px;
+		margin: 10px 0;
+	}
+	.c_text p{
+		margin-bottom: 20px;
+	}
+	.c_icon ul li{
+		margin-right: 15px !important;
+	}
+	.c_icon ul li i{
+		font-size: 30px;
+	}
+/*	feature*/
+	.features{
+		
+	}
+	
+	.c_h1{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.c_p1{
+		font-size: 17px;
+		line-height: 20px;
+		margin-bottom: 10px;
+		
+	}
+	.f_mt{
+		margin-top: 30px;
+	}
+	.f_text{
+		text-align: center;
+	}
+	.f_text h1{
+		font-size: 20px;
+	}
+/*	contact*/
+	.c_form{
+		margin: 40px 0 40px;
+	}
+	.c_input{
+		height: 40px;
+		padding: 10px 10px;	
+		margin-bottom: 15px;
+	}
+	.c_submit{
+		height: 40px;
+	}
+	.c_icon1 li{
+		margin-right: 20px !important;
+	}
+	.c_icon1 li i{
+		font-size: 38px;
+	}
+/*footer	*/
+	footer{
+		padding-bottom: 70px;
+	}
+	.f_1{
+		text-align: center;
+	}
+	.f_2{
+		text-align: center;
+		margin-top: 40px;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.c_padding{
+		padding: 50px 0 70px;
+	}
+	body{
+		padding-top: 89px;
+	}
+
+/*header*/
+	header{
+		padding: 10px 0;
+		
+	}
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+		font-size: 20px;
+		text-align: right;
+	
+	}
+/*banner*/
+	.banner {
+	    padding-bottom: 60px;
+	}
+	.c_indi {
+	    bottom: -55px;
+	}
+	.c_indi [data-bs-target] {
+	    width: 13px;
+	    height: 13px;
+	}
+	.c_text{
+		margin-top: 0;
+	}
+	.c_text h1{
+		font-size: 25px;
+	}
+	.c_text h2{
+		font-size: 18px;
+		margin: 10px 0;
+	}
+	.c_text p{
+		margin-bottom: 20px;
+	}
+	.c_icon ul li{
+		margin-right: 20px !important;
+	}
+	.c_icon ul li i{
+		font-size: 35px;
+	}
+/*	feature*/
+	.features{
+		
+	}
+	.c_h1{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.c_p1{
+		font-size: 17px;
+		line-height: 25px;
+		margin-bottom: 10px;
+		
+	}
+	.f_mt{
+		margin-top: 40px;
+	}
+	.f_text{
+		text-align: center;
+	}
+	.f_text h1{
+		font-size: 20px;
+	}
+
+	
+/*	contact*/
+	.c_form{
+		margin: 35px 0 40px;
+	}
+	.c_input{
+		height: 45px;
+		padding: 10px 10px;
+		margin-bottom: 15px;	
+	}
+	.c_submit{
+		height: 45px;
+	}
+	.c_icon1 li{
+		margin-right: 25px !important;
+	}
+	.c_icon1 li i{
+		font-size: 40px;
+	}
+/*footer	*/
+	footer{
+		padding-bottom: 70px;
+	}	
+	.f_1{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.f_2{
+		text-align: center;
+	}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.c_padding{
+		padding: 80px 0 100px;
+	}
+
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+		text-align: right;
+
+	}
+
+/*	feature*/
+	.features{
+		
+	}
+	.f_mt{
+		margin-top: 60px;
+	}
+	.f_i{
+		font-size: 30px;
+	}
+/*contact*/
+	.c_form{
+		margin: 65px 0 70px;
+	}
+/*footer	*/
+	footer{
+		padding-bottom: 100px;
+	}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+
+}
